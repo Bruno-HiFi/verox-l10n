@@ -16,7 +16,8 @@
     },
     "GENERAL": {
         "BUTTON_APPLY": "Appliquer",
-        "BUTTON_RESET": "Réinitialiser"
+        "BUTTON_RESET": "Réinitialiser",
+        "BUTTON_CONTINUE": "Continuer"
     },
     "SYSTEM": {
         "INTRO_TEXT": "Cette section contient les réglages de base de {{.constants.GLOBAL_PROD_NAME}} requis pour opérer comme appareil de diffusion audio.",
@@ -154,6 +155,7 @@
         "BUTTON_RELOAD": "Rafraîchir"
     },
     "DONATE": {
+        "HEADER": "Faire un don",
         "INTRO_TEXT": "{{.constants.GLOBAL_PROD_NAME}} est un projet de hobbyiste, et à ce titre je prends en charge les coûts induits (matériel, hébergement...). Ceci veut dire que {{.constants.GLOBAL_PROD_NAME}} dépend des dons pour compenser ces coûts !",
         "OPTIONS_TEXT": "Les options suivantes existent pour effectuer un don :",
         "APPRECIATION_TEXT": "Chaque don sera hautement apprécié !",
@@ -181,6 +183,7 @@
         "READY": "Votre périphérique est installé et prêt à être utilisé ! Configurez le selon vos préférences sur cette interface web et en avant la musique !",
         "SUPPORT_1": "La documentation de RoPieee peut être trouvée sur ",
         "SUPPORT_2": "et si vous avez besoin d'assistance vous pouvez visiter le ",
-        "SUPPORT_3": "où vous trouverez d'autres utilisateurs enclins à vous assister si vous avez des questions."
+        "SUPPORT_3": "où vous trouverez d'autres utilisateurs enclins à vous assister si vous avez des questions.",
+        "REGARDS_TEXT": "Bien à vous,"
     }
 }
