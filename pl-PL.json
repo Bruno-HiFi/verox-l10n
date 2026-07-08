@@ -32,6 +32,8 @@
         "INTRO_TEXT": "Sekcja zawiera podstawowe ustawienia dźwięku {{.constants.GLOBAL_PROD_NAME}}, które są niezbędne do prawidłowego funkcjowania urządzenia.",
         "HAT": "Nakładka HAT",
         "HELP_HAT": "Wybierz nakładkę HAT dla {{.constants.GLOBAL_PROD_NAME}}.",
+        "HDMI": "Audio HDMI",
+        "HELP_HDMI": "Wybierz, aby włączyć wyjście audio HDMI. Można używać tej funkcji równolegle z nakładką HAT i/lub dźwiękiem przez USB.",
         "DAPM": "Dynamiczne Zarządzanie Energią",
         "HELP_DAPM": "Włącz dynamiczne zarządzanie energią (ALSA DAPM). Opcja wyłącza wyjście audio niektórych nakładek HAT (po przekroczeniu limitu czasu), gdy nakładka HAT nie jest używana.",
         "USB": "Audio USB",
