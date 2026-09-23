@@ -56,7 +56,11 @@ _write_todo_table()
       printf 'Language\tSection\tKey\tIssue\n'
       cat $todo_rows
    } | awk -F'\t' '
-      { for (i = 1; i <= NF; i++) { cell[NR, i] = $i; if (length($i) > w[i]) w[i] = length($i) } }
+      {
+         # show each language only once (bold) on the first row of its group
+         if (NR > 1) { lang = $1; $1 = ($1 == prev) ? "" : "**" $1 "**"; prev = lang }
+         for (i = 1; i <= NF; i++) { cell[NR, i] = $i; if (length($i) > w[i]) w[i] = length($i) }
+      }
       END {
          for (r = 1; r <= NR; r++) {
             line = "|"
