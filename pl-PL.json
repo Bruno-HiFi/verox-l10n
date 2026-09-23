@@ -96,7 +96,7 @@
         "HELP_ROON_ZONE": "Którą strefą Roon powinien sterować za pomocą pilota. Upewnij się, że wpisałeś dokładnie taką samą nazwę strefy jak w ustawieniach Roon.",
         "FOLLOW_ZONE": "Strefa Wyświetlacza",
         "HELP_FOLLOW_ZONE": "Wybierz tę opcję, aby ustawić taką samą strefę jak w wyświetlaczu.",
-        "WARNING_EXTENSION": "Upewnij się, że włączyłeś i sparowałeś rozszerzenie RoPieee w ustawieniach rozszerzeń Roon!"
+        "WARNING_EXTENSION": "Upewnij się, że włączyłeś i sparowałeś rozszerzenie Verox w ustawieniach rozszerzeń Roon!"
     },
     "ADVANCED": {
         "INTRO_TEXT": "Sekcja zawiera ustawienia zaawansowane. Zmieniaj je tylko wtedy, gdy dokładnie wiesz co robisz!",
@@ -183,7 +183,7 @@
     "WELCOME": {
         "WELCOME_TO": "Witam w",
         "READY": "Twoje urządzenie zostało zainstalowane i jest gotowe do użycia! Skonfiguruj je według swoich preferencji i zacznij słuchać muzyki.",
-        "SUPPORT_1": "Dokumentację RoPieee znajdziesz na",
+        "SUPPORT_1": "Dokumentację Verox znajdziesz na",
         "SUPPORT_2": "jeżeli potrzebujesz dalszego wsparcia możesz odwiedzić",
         "SUPPORT_3": "gdzie znajdziesz innych użytkowników, którzy chętnie pomogą Ci jeśli będziesz miał jakieś pytania lub problemy techniczne.",
         "REGARDS_TEXT": "Pozdrawiam serdecznie,"
