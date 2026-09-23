@@ -41,11 +41,34 @@ _todo()
 {
    test $TODO -eq 0 && return
 
-   local file=$1
-   local key=$2
-   local msg=$3
+   local lang=$1
+   local section=$2
+   local key=$3
+   local issue=$4
 
-   echo "| $key | $msg |" >> $todo_file
+   printf '%s\t%s\t%s\t%s\n' "$lang" "$section" "$key" "$issue" >> $todo_rows
+}
+
+# write the collected rows as a single markdown table, columns padded to equal width
+_write_todo_table()
+{
+   {
+      printf 'Language\tSection\tKey\tIssue\n'
+      cat $todo_rows
+   } | awk -F'\t' '
+      { for (i = 1; i <= NF; i++) { cell[NR, i] = $i; if (length($i) > w[i]) w[i] = length($i) } }
+      END {
+         for (r = 1; r <= NR; r++) {
+            line = "|"
+            for (i = 1; i <= 4; i++) line = line sprintf(" %-" w[i] "s |", cell[r, i])
+            print line
+            if (r == 1) {
+               line = "|"
+               for (i = 1; i <= 4; i++) { d = ""; for (j = 0; j < w[i]; j++) d = d "-"; line = line " " d " |" }
+               print line
+            }
+         }
+      }' >> $todo_file
 }
 
 is_valid_json_file()
@@ -64,6 +87,7 @@ is_valid_json_file()
 check_for_missing_keys()
 {
    local f=$1
+   local lang=$( basename $f .json )
    local issues=0
 
    if [ ! -r $f ]
@@ -82,10 +106,10 @@ check_for_missing_keys()
       _debug "checking toplevel key $k"
 
       # does this toplevel key even exist?
-      if [ $( cat $f | jq -r 'keys_unsorted[]' | grep -c $k ) -eq 0 ]
+      if [ $( cat $f | jq -r 'keys_unsorted[]' | grep -cxF -- "$k" ) -eq 0 ]
       then
          _warning "toplevel key $k not found in ${bold}$( basename $f )${normal}"
-	 _todo "$( basename $f)" $k "toplevel key missing"
+	 _todo "$lang" "$k" "(whole section)" "missing"
 	 ((issues = issues + 1))
       else
          # the toplevel key exists, now let's check the subkeys
@@ -96,14 +120,14 @@ check_for_missing_keys()
             if [ "$sk" = "null" ]
             then
                _warning "key $k, sublevel key $l not found in ${bold}$( basename $f )${normal}"
-               _todo "$( basename $f)" $k "sublevel key $l missing"
+               _todo "$lang" "$k" "$l" "missing"
 	       ((issues = issues + 1))
             else
                # subkey exists, but make sure it's not empty
                if [ -z "$sk" ]
                then
                   _warning "key $k, sublevel key $l found, but empty in ${bold}$( basename $f )${normal}"
-                  _todo "$( basename $f)" $k "sublevel key $l empty"
+                  _todo "$lang" "$k" "$l" "empty"
 	          ((issues = issues + 1))
                fi
             fi
@@ -120,7 +144,7 @@ check_for_missing_keys()
       _debug "reverse checking toplevel key $k"
 
       # does this toplevel key even exist?
-      if [ $( cat $MASTER | jq -r 'keys_unsorted[]' | grep -c $k ) -eq 0 ]
+      if [ $( cat $MASTER | jq -r 'keys_unsorted[]' | grep -cxF -- "$k" ) -eq 0 ]
       then
          echo "ERROR: ${bold}$( basename $f )${normal}: toplevel $k not found in MASTER"
       else
@@ -129,7 +153,7 @@ check_for_missing_keys()
          while read l
 	 do
             _debug "reverse checking toplevel key $k, sublevel key $l"
-	    if [ $( cat $MASTER | jq -r ".${k} | keys_unsorted[]" | grep -c $l ) -eq 0 ]
+	    if [ $( cat $MASTER | jq -r ".${k} | keys_unsorted[]" | grep -cxF -- "$l" ) -eq 0 ]
 	    then
                echo "ERROR: ${bold}$( basename $f )${normal}: key $k, sublevel key $l not found in MASTER"
 	    fi
@@ -154,6 +178,8 @@ fi
 if [ $TODO -eq 1 ]
 then
    todo_file=$tmpdir/todo.md
+   todo_rows=$tmpdir/todo.rows
+   : > $todo_rows
    echo "## TODO missing (sub)keys"                >> $todo_file
    echo                                            >> $todo_file
    echo "> [!WARNING]"                             >> $todo_file
@@ -161,6 +187,7 @@ then
    echo                                            >> $todo_file
    echo                                            >> $todo_file
    echo "The following (sub)keys are missing:"     >> $todo_file
+   echo                                            >> $todo_file
 fi
 
 # iterate over all files (except master)
@@ -168,25 +195,13 @@ for file in $( ls ./*.json | grep -v $MASTER )
 do
    echo
    echo "found language file: ${bold}$( basename $file )${normal}"
-   if [ $TODO -eq 1 ]
-   then
-      echo                                        >> $todo_file
-      echo "| language | $( basename $file ) |"   >> $todo_file
-      echo "| -------- | ------------------- |"   >> $todo_file
-   fi
-
    check_for_missing_keys $file
    nr=$?
 
    if [ $nr -eq 0 ]
    then
       echo "no issues found!"
-      test $TODO -eq 1 && echo "no issues found!" >> $todo_file
-   fi
-
-   if [ $TODO -eq 1 ]
-   then
-      echo >> $todo_file
+      _todo "$( basename $file .json )" "" "" "up to date"
    fi
 done
 
@@ -204,6 +219,7 @@ if [ $TODO -eq 1 ]
 then
    echo
    echo "TODO file created/updated!"
+   _write_todo_table
    _debug "tmp TODO file: $todo_file"
    cp $todo_file ./TODO.md
 fi
