@@ -187,5 +187,12 @@
         "SUPPORT_2": "jeżeli potrzebujesz dalszego wsparcia możesz odwiedzić",
         "SUPPORT_3": "gdzie znajdziesz innych użytkowników, którzy chętnie pomogą Ci jeśli będziesz miał jakieś pytania lub problemy techniczne.",
         "REGARDS_TEXT": "Pozdrawiam serdecznie,"
+    },
+    "VEROX_MIGRATION": {
+        "TITLE": "RoPieee nazywa się teraz Verox!",
+        "BODY_1": "Urządzenie zostało właśnie zaktualizowane do najnowszej wersji, a w ramach tej aktualizacji RoPieee zostało przemianowane na Verox — ten sam projekt, ten sam zespół, nowa nazwa.",
+        "BODY_2": "Nic się nie zmieniło: Twoja konfiguracja, strefy i inne ustawienia są dokładnie takie, jakie je zostawiłeś.",
+        "LEARN_MORE": "Czy ciekawi Cię historia nowej nazwy?",
+        "LEARN_MORE_LINK": "Przeczytaj tutaj"
     }
 }
