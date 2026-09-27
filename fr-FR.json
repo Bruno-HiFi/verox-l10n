@@ -32,6 +32,8 @@
         "INTRO_TEXT": "Cette section contient les réglages audio de {{.constants.GLOBAL_PROD_NAME}} requis pour opérer comme appareil de diffusion audio.",
         "HAT": "Audio HAT ",
         "HELP_HAT": "Sélectionner l'Audio HAT que {{.constants.GLOBAL_PROD_NAME}} doit utiliser.",
+        "HDMI": "Audio HDMI",
+        "HELP_HDMI": "Sélectionner pour activer la sortie audio HDMI, qui peut être utilisée en parallèle d'un Audio HAT et/ou de l'USB audio.",
         "DAPM": "Dynamic Audio Power Mgt ",
         "HELP_DAPM": "Active le Dynamic Audio Power Management (ALSA DAPM). Ceci coupe la sortie sur certains HATs quand ils sont inactifs, après un délai d'attente.",
         "USB": "Audio USB ",
@@ -94,7 +96,7 @@
         "HELP_ROON_ZONE": "La zone Roon que vous souhaitez piloter avec la télécommande. Attention à saisir son nom *exactement* comme dans Roon.",
         "FOLLOW_ZONE": "Piloter la zone affichée ",
         "HELP_FOLLOW_ZONE": "Sélectionner pour piloter la zone affichée sur l'écran avec la télécommande.",
-        "WARNING_EXTENSION": "Veuillez vous assurer que vous avez activé et configuré l'extension RoPieee dans Roon !"
+        "WARNING_EXTENSION": "Veuillez vous assurer que vous avez activé et configuré l'extension {{.constants.GLOBAL_PROD_NAME}} dans Roon !"
     },
     "ADVANCED": {
         "INTRO_TEXT": "Cette section contient les réglages avancés. Ne les modifiez que si vous savez exactement ce que vous faîtes !",
@@ -181,9 +183,16 @@
     "WELCOME": {
         "WELCOME_TO": "Bienvenue sur",
         "READY": "Votre périphérique est installé et prêt à être utilisé ! Configurez le selon vos préférences sur cette interface web et en avant la musique !",
-        "SUPPORT_1": "La documentation de RoPieee peut être trouvée sur ",
+        "SUPPORT_1": "La documentation de {{.constants.GLOBAL_PROD_NAME}} peut être trouvée sur ",
         "SUPPORT_2": "et si vous avez besoin d'assistance vous pouvez visiter le ",
         "SUPPORT_3": "où vous trouverez d'autres utilisateurs enclins à vous assister si vous avez des questions.",
         "REGARDS_TEXT": "Bien à vous,"
+    },
+    "VEROX_MIGRATION": {
+        "TITLE": "RoPieee est maintenant Verox !",
+        "BODY_1": "Cet appareil a été mis à jour avec la dernière version, à cette occasion Ropieee devient Verox — même projet, même équipe, nouveau nom.",
+        "BODY_2": "Rien d'autre n'a changé : votre configuration, vos zones, vos réglages sont intacts.",
+        "LEARN_MORE": "Curieux de l'histoire derrière ce changement de nom ?",
+        "LEARN_MORE_LINK": "Lisez-là ici."
     }
 }
