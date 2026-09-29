@@ -190,9 +190,9 @@
     },
     "VEROX_MIGRATION": {
         "TITLE": "RoPieee est maintenant Verox !",
-        "BODY_1": "Cet appareil a été mis à jour avec la dernière version, à cette occasion Ropieee devient Verox — même projet, même équipe, nouveau nom.",
+        "BODY_1": "Cet appareil a été mis à jour avec la dernière version, à cette occasion RoPieee devient Verox — même projet, même équipe, nouveau nom.",
         "BODY_2": "Rien d'autre n'a changé : votre configuration, vos zones, vos réglages sont intacts.",
         "LEARN_MORE": "Curieux de l'histoire derrière ce changement de nom ?",
-        "LEARN_MORE_LINK": "Lisez-là ici."
+        "LEARN_MORE_LINK": "Lisez-la ici"
     }
 }
