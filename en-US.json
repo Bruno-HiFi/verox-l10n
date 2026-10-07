@@ -182,7 +182,7 @@
     },
     "WELCOME": {
         "WELCOME_TO": "Welcome to",
-        "READY": "Your device is installed and ready for use! Configure it to your preferences on this website and start listening to music.",
+        "READY": "Your device is ready! Adjust the settings here to suit you, then start listening.",
         "SUPPORT_1": "{{.constants.GLOBAL_PROD_NAME}}’s documentation can be found on",
         "SUPPORT_2": "and if you need any assistance you can visit the",
         "SUPPORT_3": "where you'll find other users that are willing to help out if you're having questions.",
