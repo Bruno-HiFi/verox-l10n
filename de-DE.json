@@ -167,7 +167,7 @@
   "INIT": {
     "WELCOME": "Willkommen bei {{.constants.GLOBAL_PROD_NAME}}!",
     "INITIALISING": "Ihr Gerät wird initialisiert...",
-    "WAIT": "Es wird in Kürze verfügbar sein, haben Sie noch ein wendig Geduld...",
+    "WAIT": "Es wird in Kürze verfügbar sein, haben Sie noch ein wenig Geduld...",
     "WRAPPING_UP_1": "Die Installation wird fertiggestellt ... bitte nicht unterbrechen.",
     "WRAPPING_UP_2": "Dies kann noch ein paar Minuten dauern, aber es ist bald soweit. Das Gerät kann dabei mehrmals rebooten.",
     "DONATIONS": "Spenden",
@@ -183,14 +183,14 @@
   "WELCOME": {
     "WELCOME_TO": "Willkommen bei",
     "READY": "Ihr Gerät ist fertig installiert! Passen Sie die Einstellungen entsprechend an, und genießen Sie die Musik.",
-    "SUPPORT_1": "Die Dokumentation für {{.constants.GLOBAL_PROD_NAME}} finden sie hier",
-    "SUPPORT_2": "und wenn sie weitere Hilfe brauchen besuchen Sie",
+    "SUPPORT_1": "Die Dokumentation für {{.constants.GLOBAL_PROD_NAME}} finden Sie hier",
+    "SUPPORT_2": "und wenn Sie weitere Hilfe brauchen besuchen Sie",
     "SUPPORT_3": "hier finden Sie Antworten auf allgemeine Fragen, und andere Nutzer die Ihnen gerne helfen.",
     "REGARDS_TEXT": "Mit freundlichen Grüßen,"
   },
   "VEROX_MIGRATION": {
     "TITLE": "RoPieee ist jetzt Verox!",
-    "BODY_1": "Das Gerät wurde auf den neuesten Stand gebracht - im Zuge dessen wurde RoPieee auf Verox umbenannt - selbes Project, selbes Team, neuer Name.",
+    "BODY_1": "Das Gerät wurde auf den neuesten Stand gebracht - im Zuge dessen wurde RoPieee in Verox umbenannt - selbes Projekt, selbes Team, neuer Name.",
     "BODY_2": "Ansonsten hat sich nichts geändert: die Konfiguration, Zonen, und Einstellungen sind gleich geblieben.",
     "LEARN_MORE": "Kennen Sie schon die Geschichte hinter dem neuen Namen?",
     "LEARN_MORE_LINK": "Lesen Sie hier"
