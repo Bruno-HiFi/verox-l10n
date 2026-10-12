@@ -16,29 +16,32 @@
   },
   "GENERAL": {
     "BUTTON_APPLY": "Anwenden",
-    "BUTTON_RESET": "Zurücksetzen"
+    "BUTTON_RESET": "Zurücksetzen",
+    "BUTTON_CONTINUE": "Weiter"
   },
   "SYSTEM": {
     "INTRO_TEXT": "Dieser Abschnitt enthält die grundlegenden Einstellungen für {{.constants.GLOBAL_PROD_NAME}}, die für den Betrieb als Endpunkt erforderlich sind.",
     "DEVICE_NAME": "Gerätename",
-    "HELP_DEVICE_NAME": "Der Name, der das {{.constants.GLOBAL_PROD_NAME}}-Gerät in Ihrem Netzwerk identifiziert (auch als 'Hostname' bekannt). Sehr nützlich, wenn Sie mehr als ein {{.constants.GLOBAL_PROD_NAME}}-Gerät in Ihrem Netzwerk haben.",
+    "HELP_DEVICE_NAME": "Der Name, der das {{.constants.GLOBAL_PROD_NAME}} Gerät in Ihrem Netzwerk identifiziert (auch als 'Hostname' bekannt). Sehr nützlich, wenn Sie mehr als ein {{.constants.GLOBAL_PROD_NAME}} Gerät in Ihrem Netzwerk haben.",
     "LANGUAGE": "Sprache",
     "HELP_LANGUAGE": "Wählen Sie die Sprache dieser Weboberfläche aus.",
     "TIMEZONE": "Zeitzone",
-    "HELP_TIMEZONE": "Wählen Sie die entsprechende Zeitzone aus, in der sich {{.constants.GLOBAL_PROD_NAME}} befindet."
+    "HELP_TIMEZONE": "Wählen Sie die Zeitzone aus, in der sich Ihr {{.constants.GLOBAL_PROD_NAME}} Gerät befindet."
   },
   "AUDIO": {
     "INTRO_TEXT": "Dieser Abschnitt enthält die Audioeinstellungen für {{.constants.GLOBAL_PROD_NAME}}, die für den Betrieb als Endpunkt erforderlich sind.",
-    "HAT": "Audio-HAT",
-    "HELP_HAT": "Wählen Sie den Audio-HAT aus, den {{.constants.GLOBAL_PROD_NAME}} verwenden soll.",
+    "HAT": "Audio HAT",
+    "HELP_HAT": "Wählen Sie den Audio HAT aus, den {{.constants.GLOBAL_PROD_NAME}} verwenden soll.",
+    "HDMI": "Audio HDMI",
+    "HELP_HDMI": "Wählen Sie diese Option, um die HDMI Audio Ausgabe zu aktivieren. Dies kann parallel zu einem Audio HAT und/oder USB Audio verwendet werden.",
     "DAPM": "Dynamisches Audio-Power-Management",
     "HELP_DAPM": "Aktivieren Sie das dynamische Audio-Power-Management (ALSA DAPM). Dies deaktiviert die Ausgabe an bestimmten HATs (nach einer Zeitüberschreitung) im Leerlauf.",
-    "USB": "Audio-USB",
-    "HELP_USB": "Wählen Sie diese Option, um USB-Audio zu aktivieren. Dies kann parallel zu einem Audio-HAT verwendet werden.",
-    "USB_FORCE_VOLUME": "USB-Lautstärke Erzwingen",
-    "HELP_USB_FORCE_VOLUME": "",
-    "USB_FORCE_VOLUME_LEVEL": "Lautstärke-Level Erzwingen",
-    "HELP_USB_FORCE_VOLUME_LEVEL": "",
+    "USB": "Audio USB",
+    "HELP_USB": "Wählen Sie diese Option, um USB Audio zu aktivieren. Dies kann parallel zu einem Audio HAT verwendet werden.",
+    "USB_FORCE_VOLUME": "USB Lautstärke erzwingen",
+    "HELP_USB_FORCE_VOLUME": "Die initiale Lautstärke der USB Ausgabe.",
+    "USB_FORCE_VOLUME_LEVEL": "Initiale USB Lautstärke",
+    "HELP_USB_FORCE_VOLUME_LEVEL": "Initiale USB Lautstärke in (%).",
     "USB_AUTO_SUSPEND": "USB Auto-Suspend",
     "HELP_USB_AUTO_SUSPEND": "Aktivieren Sie USB Auto-Suspend. Nicht alle DACs unterstützen dies, seien Sie vorsichtig!"
   },
@@ -51,20 +54,22 @@
     "WIRED_CONFIG_METHOD": "Konfigurationsmethode",
     "HELP_WIRED_CONFIG_METHOD": "Wählen Sie die Methode für die IP-Adresskonfiguration aus.",
     "BUTTON_MORE_INFO": "Mehr Informationen",
-    "WIRELESS_EXT_ANTENNA": "Externe Antenne Aktivieren",
-    "HELP_WIRELESS_EXT_ANTENNA": "Wählen Sie diese Option, um eine externe WLAN-Antenne an CM4/5 zu verwenden.",
+    "WIRELESS_EXT_ANTENNA": "Externe Antenne aktivieren",
+    "HELP_WIRELESS_EXT_ANTENNA": "Wählen Sie diese Option, um eine externe WLAN-Antenne am CM4/5 zu verwenden.",
     "WIRELESS_INTERFACE": "Schnittstelle",
-    "HELP_WIRELESS_INTERFACE": "Wählen Sie die WLAN-Schnittstelle aus, die Sie verwenden möchten.",
+    "HELP_WIRELESS_INTERFACE": "Wählen Sie die WLAN Schnittstelle aus, die Sie verwenden möchten.",
     "WIRELESS_NETWORK": "Netzwerk",
-    "HELP_WIRELESS_NETWORK": "Wählen Sie das WLAN-Netzwerk aus, dem Sie beitreten möchten.",
+    "HELP_WIRELESS_NETWORK": "Wählen Sie das WLAN Netzwerk aus, mit dem sich das Gerät verbinden soll.",
     "BUTTON_SCAN": "SCANNEN",
     "WIRELESS_PASSWORD": "Passwort",
-    "HELP_WIRELESS_PASSWORD": "Das Passwort (WPA-PSK-Passphrase) für das drahtlose Netzwerk, dem Sie beitreten möchten."
+    "HELP_WIRELESS_PASSWORD": "Das Passwort (WPA-PSK-Passphrase) für das gewählte WLAN Netzwerk."
   },
   "DISPLAY": {
     "INTRO_TEXT": "Dieser Abschnitt enthält die Einstellungen für den Raspberry Pi Touchscreen.",
     "ORIENTATION": "Ausrichtung",
-    "HELP_ORIENTATION": "Wenn der Touchscreen auf dem Kopf steht, drehen Sie ihn mit dieser Option.",
+    "HELP_ORIENTATION": "Wenn der Touchscreen auf dem Kopf steht, drehen Sie mit dieser Option die Anzeige.",
+    "ORIENTATION_NORMAL": "Normal",
+    "ORIENTATION_FLIPPED": "Rotiert",
     "ROON_DEFAULT_ZONE": "Standard Roon-Zone",
     "HELP_ROON_DEFAULT_ZONE": "Welche Roon-Zone soll das Display standardmäßig anzeigen? Stellen Sie sicher, dass Sie sie *genau* so eingeben, wie sie in Roon bekannt ist. Sie können die Zone auch direkt vom Bildschirm aus ändern.",
     "SCROLL_TITLES": "Lange Titel Scrollen",
@@ -138,7 +143,7 @@
     "DISK_SIZE": "Festplattengröße"
   },
   "DEVICES": {
-    "INTRO_TEXT": "Dieser Abschnitt zeigt alle entdeckten {{.constants.GLOBAL_PROD_NAME}}-Geräte in Ihrem Netzwerk an.",
+    "INTRO_TEXT": "Dieser Abschnitt zeigt alle entdeckten {{.constants.GLOBAL_PROD_NAME}} Geräte in Ihrem Netzwerk an.",
     "TABLE_HDR_NAME": "Name",
     "TABLE_HDR_ADDR": "IP-Adresse",
     "TABLE_HDR_TEMP": "Temperatur",
@@ -152,10 +157,42 @@
     "BUTTON_RELOAD": "Neu Laden"
   },
   "DONATE": {
+    "HEADER": "Jetzt Spenden",
     "INTRO_TEXT": "{{.constants.GLOBAL_PROD_NAME}} ist ein reines Hobby-Projekt, daher übernehme ich die anfallenden Kosten. Denken Sie an Hosting-Kosten, Hardware usw. Das bedeutet, dass {{.constants.GLOBAL_PROD_NAME}} auf Spenden angewiesen ist, um diese Kosten zu decken.",
     "OPTIONS_TEXT": "Die folgenden Spendenoptionen sind verfügbar:",
     "APPRECIATION_TEXT": "Jede Spende wird sehr geschätzt!",
     "REGARDS_TEXT": "Mit freundlichen Grüßen,",
     "BUTTON_HOME": "ZUR STARTSEITE"
+  },
+  "INIT": {
+    "WELCOME": "Willkommen bei {{.constants.GLOBAL_PROD_NAME}}!",
+    "INITIALISING": "Ihr Gerät wird initialisiert...",
+    "WAIT": "Es wird in Kürze verfügbar sein, haben Sie noch ein wendig Geduld...",
+    "WRAPPING_UP_1": "Die Installation wird fertiggestellt ... bitte nicht unterbrechen.",
+    "WRAPPING_UP_2": "Dies kann noch ein paar Minuten dauern, aber es ist bald soweit. Das Gerät kann dabei mehrmals rebooten.",
+    "DONATIONS": "Spenden",
+    "DONATE_1": "Ich hoffe Sie schätzen dieses Produkt.",
+    "DONATE_2": "sind willkommen!"
+  },
+  "UPDATE": {
+    "IN_PROGRESS": "Aktualisierung läuft ...",
+    "WAIT_1": "Ihr {{.constants.GLOBAL_PROD_NAME}} Gerät wird aktualisiert auf",
+    "WAIT_2": "Dies kann ein wenig dauern...",
+    "DONT_INTERRUPT": "Bitte nicht unterbrechen und nicht ausschalten."
+  },
+  "WELCOME": {
+    "WELCOME_TO": "Willkommen bei",
+    "READY": "Ihr Gerät ist fertig installiert! Passen Sie die Einstellungen entsprechend an, und genießen Sie die Musik.",
+    "SUPPORT_1": "Die Dokumentation für {{.constants.GLOBAL_PROD_NAME}} finden sie hier",
+    "SUPPORT_2": "und wenn sie weitere Hilfe brauchen besuchen Sie",
+    "SUPPORT_3": "hier finden Sie Antworten auf allgemeine Fragen, und andere Nutzer die Ihnen gerne helfen.",
+    "REGARDS_TEXT": "Mit freundlichen Grüßen,"
+  },
+  "VEROX_MIGRATION": {
+    "TITLE": "RoPieee ist jetzt Verox!",
+    "BODY_1": "Das Gerät wurde auf den neuesten Stand gebracht - im Zuge dessen wurde RoPieee auf Verox umbenannt - selbes Project, selbes Team, neuer Name.",
+    "BODY_2": "Ansonsten hat sich nichts geändert: die Konfiguration, Zonen, und Einstellungen sind gleich geblieben.",
+    "LEARN_MORE": "Kennen Sie schon die Geschichte hinter dem neuen Namen?",
+    "LEARN_MORE_LINK": "Lesen Sie hier"
   }
 }
