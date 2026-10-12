@@ -185,6 +185,7 @@
         "READY": "Votre périphérique est installé et prêt à être utilisé ! Configurez le selon vos préférences sur cette interface web et en avant la musique !",
         "SUPPORT_1": "La documentation de {{.constants.GLOBAL_PROD_NAME}} peut être trouvée sur ",
         "SUPPORT_2": "et si vous avez besoin d'assistance vous pouvez visiter le ",
+        "FORUM_LINK": "forum de la communauté",
         "SUPPORT_3": "où vous trouverez d'autres utilisateurs enclins à vous assister si vous avez des questions.",
         "REGARDS_TEXT": "Bien à vous,"
     },

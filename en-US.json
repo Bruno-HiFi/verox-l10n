@@ -185,6 +185,7 @@
         "READY": "Your device is ready! Adjust the settings here to suit you, then start listening.",
         "SUPPORT_1": "{{.constants.GLOBAL_PROD_NAME}}’s documentation can be found on",
         "SUPPORT_2": "and if you need any assistance you can visit the",
+        "FORUM_LINK": "community forum",
         "SUPPORT_3": "where you'll find other users that are willing to help out if you're having questions.",
         "REGARDS_TEXT": "Best regards,"
     },

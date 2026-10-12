@@ -185,6 +185,7 @@
         "READY": "Az eszköz telepítése befejeződött, és használatra kész! Állítsa be igényeinek megfelelően ezen a webes felületen, majd kezdje el a zenehallgatást.",
         "SUPPORT_1": "A {{.constants.GLOBAL_PROD_NAME}} dokumentációja itt található:",
         "SUPPORT_2": "ha pedig segítségre van szüksége, látogasson el ide:",
+        "FORUM_LINK": "közösségi fórum",
         "SUPPORT_3": "ahol más felhasználók is szívesen segítenek a kérdéseiben.",
         "REGARDS_TEXT": "Üdvözlettel,"
     },

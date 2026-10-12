@@ -185,6 +185,7 @@
         "READY": "Din enhed er klar! Tilpas indstillingerne her, så de passer til dig, og begynd derefter at lytte.",
         "SUPPORT_1": "{{.constants.GLOBAL_PROD_NAME}}' dokumentation kan findes på",
         "SUPPORT_2": "og hvis du har brug for hjælp, kan du besøge",
+        "FORUM_LINK": "fællesskabsforummet",
         "SUPPORT_3": "hvor du finder andre brugere, som gerne hjælper, hvis du har spørgsmål.",
         "REGARDS_TEXT": "Med venlig hilsen"
     },

@@ -185,6 +185,7 @@
     "READY": "Ihr Gerät ist fertig installiert! Passen Sie die Einstellungen entsprechend an, und genießen Sie die Musik.",
     "SUPPORT_1": "Die Dokumentation für {{.constants.GLOBAL_PROD_NAME}} finden Sie hier",
     "SUPPORT_2": "und wenn Sie weitere Hilfe brauchen besuchen Sie",
+    "FORUM_LINK": "das Community-Forum",
     "SUPPORT_3": "hier finden Sie Antworten auf allgemeine Fragen, und andere Nutzer die Ihnen gerne helfen.",
     "REGARDS_TEXT": "Mit freundlichen Grüßen,"
   },
