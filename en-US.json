@@ -195,5 +195,15 @@
         "BODY_2": "Nothing else has changed: your configuration, zones, and settings are exactly as you left them.",
         "LEARN_MORE": "Curious about the story behind the new name?",
         "LEARN_MORE_LINK": "Read it here"
+    },
+    "DISK_TOO_SMALL": {
+        "TITLE": "Warning: disk too small",
+        "TOO_SMALL": "The SD card of this unit is too small: {{.constants.GLOBAL_PROD_NAME}} requires at least an 8 GB disk.",
+        "NO_UPDATES": "This means this unit cannot be updated: there isn't enough free space available.",
+        "ADVICE": "The advice is to replace the SD card with a fresh one.",
+        "SUPPORT_1": "If you need any assistance you can visit the",
+        "SUPPORT_2": "where you'll find other users that are willing to help out if you're having questions.",
+        "GUIDE": "And finally you can also have a look at the excellent",
+        "GUIDE_LINK": "install guide."
     }
 }
