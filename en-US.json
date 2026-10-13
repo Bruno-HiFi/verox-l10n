@@ -17,7 +17,9 @@
     "GENERAL": {
         "BUTTON_APPLY": "Apply",
         "BUTTON_RESET": "Reset",
-        "BUTTON_CONTINUE": "Continue"
+        "BUTTON_CONTINUE": "Continue",
+        "BUTTON_OK": "OK",
+        "BUTTON_CANCEL": "Cancel"
     },
     "SYSTEM": {
         "INTRO_TEXT": "This section contains the basic settings for {{.constants.GLOBAL_PROD_NAME}} that are required for it to function as an endpoint.",
@@ -205,5 +207,29 @@
         "SUPPORT_2": "where you'll find other users that are willing to help out if you're having questions.",
         "GUIDE": "And finally you can also have a look at the excellent",
         "GUIDE_LINK": "install guide."
+    },
+    "ALERTS": {
+        "NEEDS_REBOOT": "Your device requires a reboot for all changes to take effect.",
+        "BUTTON_REBOOT": "REBOOT",
+        "NEEDS_CONFIGURE": "Your device needs to be configured for the latest changes to take effect.",
+        "BUTTON_CONFIGURE": "CONFIGURE",
+        "UPDATE_AVAILABLE": "Update downloaded and available for your device:",
+        "BUTTON_INSTALL_UPDATE": "INSTALL UPDATE",
+        "UPDATE_INHIBITED": "Update available, but inhibited:",
+        "BUTTON_MORE_INFO": "MORE INFO",
+        "REBOOT_TITLE": "Reboot",
+        "REBOOT_CONFIRM": "Are you sure you want to reboot?"
+    },
+    "SAVED": {
+        "TITLE": "{{.constants.GLOBAL_PROD_NAME}} Saved!",
+        "SAVED": "Your changes to the configuration are saved.",
+        "RUN_CONFIGURE": "To make this new configuration active you need to run CONFIGURE.",
+        "RUN_REBOOT": "To make this new configuration active you need to REBOOT."
+    },
+    "FOOTER": {
+        "DONATE": "Donate"
+    },
+    "CONFIGURE": {
+        "IN_PROGRESS": "Your device is being configured... Please do not interrupt!"
     }
 }

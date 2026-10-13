@@ -8,12 +8,44 @@ The following (sub)keys are missing:
 
 | Language  | Section         | Key             | Issue   |
 | --------- | --------------- | --------------- | ------- |
-| **da-DK** | DISK_TOO_SMALL  | (whole section) | missing |
-| **de-DE** | DISK_TOO_SMALL  | (whole section) | missing |
-| **fr-FR** | DISK_TOO_SMALL  | (whole section) | missing |
-| **hu-HU** | DISK_TOO_SMALL  | (whole section) | missing |
-| **it-IT** | DISK_TOO_SMALL  | (whole section) | missing |
+| **da-DK** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
+| **de-DE** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
+| **fr-FR** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
+| **hu-HU** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
+| **it-IT** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
 | **nl-NL** | GENERAL         | BUTTON_CONTINUE | missing |
+|           | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | AUDIO           | HDMI            | missing |
 |           | AUDIO           | HELP_HDMI       | missing |
 |           | DONATE          | HEADER          | missing |
@@ -21,4 +53,14 @@ The following (sub)keys are missing:
 |           | WELCOME         | (whole section) | missing |
 |           | VEROX_MIGRATION | (whole section) | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
-| **pl-PL** | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
+| **pl-PL** | GENERAL         | BUTTON_OK       | missing |
+|           | GENERAL         | BUTTON_CANCEL   | missing |
+|           | DISK_TOO_SMALL  | (whole section) | missing |
+|           | ALERTS          | (whole section) | missing |
+|           | SAVED           | (whole section) | missing |
+|           | FOOTER          | (whole section) | missing |
+|           | CONFIGURE       | (whole section) | missing |
