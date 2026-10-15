@@ -239,6 +239,19 @@
         "FAILED_TITLE": "Sending feedback has failed!",
         "FAILED_BODY": "This can be caused, for example, by having no internet connection or by a firewall."
     },
+    "LOGIN": {
+        "TITLE": "Please log in",
+        "PASSWORD": "Password",
+        "BUTTON_LOGIN": "Log in",
+        "ERROR_LOGOUT_FIRST": "Please log out first!",
+        "ERROR_WRONG_PASSWORD": "Wrong password!"
+    },
+    "LOGOUT": {
+        "TITLE": "Logged out",
+        "LINE_1": "You have been logged out.",
+        "LINE_2": "Want to go back in? Press the button below.",
+        "BUTTON_BACK": "Bring me back"
+    },
     "SERVICES": {
         "INTRO_ROONBRIDGE": "Play from Roon on this device.",
         "INTRO_UPMPDCLI": "Play from UPnP/DLNA apps and servers, such as BubbleUPnP or JRiver.",
