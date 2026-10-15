@@ -15,6 +15,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **de-DE** | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
@@ -22,6 +23,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **fr-FR** | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
@@ -29,6 +31,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **hu-HU** | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
@@ -36,6 +39,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **it-IT** | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
@@ -43,6 +47,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **nl-NL** | GENERAL         | BUTTON_CONTINUE | missing |
 |           | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
@@ -57,6 +62,7 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |
 | **pl-PL** | GENERAL         | BUTTON_OK       | missing |
 |           | GENERAL         | BUTTON_CANCEL   | missing |
 |           | DISK_TOO_SMALL  | (whole section) | missing |
@@ -64,3 +70,4 @@ The following (sub)keys are missing:
 |           | SAVED           | (whole section) | missing |
 |           | FOOTER          | (whole section) | missing |
 |           | CONFIGURE       | (whole section) | missing |
+|           | SERVICES        | (whole section) | missing |

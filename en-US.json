@@ -231,5 +231,22 @@
     },
     "CONFIGURE": {
         "IN_PROGRESS": "Your device is being configured... Please do not interrupt!"
+    },
+    "SERVICES": {
+        "INTRO_ROONBRIDGE": "Play from Roon on this device.",
+        "INTRO_UPMPDCLI": "Play from UPnP/DLNA apps and servers, such as BubbleUPnP or JRiver.",
+        "INTRO_SHAIRPORT": "Play from an iPhone, iPad or Mac with AirPlay, via shairport-sync.",
+        "INTRO_LIBRESPOT": "Play from the Spotify app with Spotify Connect.",
+        "INTRO_SOLOIST": "Spotify Connect, played by Spotify's own Soloist engine.",
+        "INTRO_SQUEEZELITE": "Play from Lyrion Music Server (formerly Logitech Media Server) with Squeezelite.",
+        "INTRO_HQPLAYER": "Lets HQPlayer use this device as a network audio adapter (NAA).",
+        "INTRO_SPINNER": "Play from Music Assistant or other Sendspin sources, in sync across rooms.",
+        "INTRO_CALDERA": "Play from your Plex server with the Caldera client.",
+        "INTRO_OAAT": "Play from the Tune music server, over OAAT.",
+        "INTRO_UPNPBRIDGE": "Makes a UPnP renderer on your network show up as a player, through this device.",
+        "READ_MORE": "Read more",
+        "VERSION": "Version",
+        "EXPIRES_IN": "Expires in",
+        "DAYS": "days"
     }
 }
