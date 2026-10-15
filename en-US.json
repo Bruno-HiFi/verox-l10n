@@ -250,8 +250,7 @@
         "DAYS": "days",
         "PLEX_NOT_CONNECTED": "Plex needs to be connected before this service can be enabled.",
         "PLEX_CONNECT": "Connect your Plex account",
-        "PLEX_GO_TO": "Go to",
-        "PLEX_ENTER_CODE": "and enter code",
+        "PLEX_ENTER_CODE_AT": "Enter code at:",
         "PLEX_WAITING": "Waiting for authorization..."
     }
 }
