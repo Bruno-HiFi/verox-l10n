@@ -19,7 +19,8 @@
         "BUTTON_RESET": "Reset",
         "BUTTON_CONTINUE": "Continue",
         "BUTTON_OK": "OK",
-        "BUTTON_CANCEL": "Cancel"
+        "BUTTON_CANCEL": "Cancel",
+        "BUTTON_HOME": "Home"
     },
     "SYSTEM": {
         "INTRO_TEXT": "This section contains the basic settings for {{.constants.GLOBAL_PROD_NAME}} that are required for it to function as an endpoint.",
@@ -231,6 +232,12 @@
     },
     "CONFIGURE": {
         "IN_PROGRESS": "Your device is being configured... Please do not interrupt!"
+    },
+    "FEEDBACK": {
+        "SENT": "Your logs have been sent to the {{.constants.GLOBAL_PROD_NAME}} team with this identifier:",
+        "SENT_NOTE": "Please mention this identifier when you post about your problem on the",
+        "FAILED_TITLE": "Sending feedback has failed!",
+        "FAILED_BODY": "This can be caused, for example, by having no internet connection or by a firewall."
     },
     "SERVICES": {
         "INTRO_ROONBRIDGE": "Play from Roon on this device.",
