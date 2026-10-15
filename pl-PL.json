@@ -17,7 +17,9 @@
     "GENERAL": {
         "BUTTON_APPLY": "Zatwierdź",
         "BUTTON_RESET": "Zresetuj",
-        "BUTTON_CONTINUE": "Kontynuuj"
+        "BUTTON_CONTINUE": "Kontynuuj",
+        "BUTTON_OK": "OK",
+        "BUTTON_CANCEL": "Anuluj"
     },
     "SYSTEM": {
         "INTRO_TEXT": "Sekcja zawiera podstawowe ustawienia {{.constants.GLOBAL_PROD_NAME}}, które są wymagane do poprawnego działania urządzenia.",
@@ -71,7 +73,7 @@
         "ORIENTATION_NORMAL": "Normalna",
         "ORIENTATION_FLIPPED": "Odwrócona", 
         "ROON_DEFAULT_ZONE": "Domyślna Strefa Roon",
-        "HELP_ROON_DEFAULT_ZONE": "Upewnij się, że wpisałeś właściwą strefę taką jak w ustawieniach Roon.",
+        "HELP_ROON_DEFAULT_ZONE": "Wybierz strefę Roon, którą wyświetlacz ma pokazywać domyślnie. Wpisz jej nazwę dokładnie tak, jak w ustawieniach Roon. Strefę możesz również zmienić bezpośrednio na ekranie.",      
         "SCROLL_TITLES": "Przewiń Długie Tytuły",
         "HELP_SCROLL_TITLES": "Włącz przewijanie długich tytułów utworów.",
         "HIDE_OPTIONS": "Ukryj Przycisk Opcji",
@@ -93,10 +95,10 @@
         "INTRO_TEXT": "W tej sekcji znajdują się ustawienia pilota zdalnego sterowania. Model pilota zostanie wykryty automatycznie.",
         "TYPE": "Model Pilota",
         "ROON_ZONE": "Strefa Roon",
-        "HELP_ROON_ZONE": "Którą strefą Roon powinien sterować za pomocą pilota. Upewnij się, że wpisałeś dokładnie taką samą nazwę strefy jak w ustawieniach Roon.",
+        "HELP_ROON_ZONE": "Wybierz strefę Roon, którą chcesz sterować za pomocą pilota. Wpisz jej nazwę dokładnie tak, jak w ustawieniach Roon.",
         "FOLLOW_ZONE": "Strefa Wyświetlacza",
         "HELP_FOLLOW_ZONE": "Wybierz tę opcję, aby ustawić taką samą strefę jak w wyświetlaczu.",
-        "WARNING_EXTENSION": "Upewnij się, że włączyłeś i sparowałeś rozszerzenie Verox w ustawieniach rozszerzeń Roon!"
+        "WARNING_EXTENSION": "Upewnij się, że rozszerzenie {{.constants.GLOBAL_PROD_NAME}} jest włączone i sparowane w ustawieniach rozszerzeń Roon!"       
     },
     "ADVANCED": {
         "INTRO_TEXT": "Sekcja zawiera ustawienia zaawansowane. Zmieniaj je tylko wtedy, gdy dokładnie wiesz co robisz!",
@@ -105,8 +107,8 @@
         "AUTO_UPDATE": "Automatyczna Aktualizacja",
         "HELP_AUTO_UPDATE": "Włącz automatyczną aktualizację. Funkcja zadziała tylko wtedy, gdy włączony jest harmonogram ponownego uruchamiania {{.constants.GLOBAL_PROD_NAME}}.",
         "REBOOT_SCHEDULE": "Harmonogram Ponownego Uruchomienia",
-        "HELP_REBOOT_SCHEDULE": "Kiedy {{.constants.GLOBAL_PROD_NAME}} ma uruchomić się automatycznie?",
-        "REBOOT_TIME": "Godzina Automatycznego Uruchomienia",
+        "HELP_REBOOT_SCHEDULE": "Kiedy urządzenie {{.constants.GLOBAL_PROD_NAME}} ma uruchamiać się ponownie?",
+        "REBOOT_TIME": "Godzina ponownego uruchomienia",
         "HELP_REBOOT_TIME": "O której godzinie {{.constants.GLOBAL_PROD_NAME}} ma uruchomić się ponownie?",
         "WEB_AUTH": "Hasło Administratora",
         "HELP_WEB_AUTH": "Włącz logowanie za pomocą hasła do {{.constants.GLOBAL_PROD_NAME}} GUI.",
@@ -114,23 +116,23 @@
         "HELP_WEB_PASSWORD": "Hasło do logowania się do {{.constants.GLOBAL_PROD_NAME}}.",
         "LED_FUNCTION": "Diody LED",
         "HELP_LED_FUNCTION": "Jak chcesz, żeby zachowywały się diody LED. W Raspberry Pi5 dioda POWER jest całkowicie wyłączona.",
-        "SEND_WOL": "Wyślij Funkcję Wake-on-Lan (WoL)",
+        "SEND_WOL": "Wyślij pakiet Wake-on-LAN (WoL)",
         "HELP_SEND_WOL": "Wyślij wiadomość WoL podczas uruchamiania.",
         "WOL_MACADDR": "Docelowy Adres MAC",
         "HELP_WOL_MACADDR": "Adres MAC, na który kierowany jest WoL.",
         "WOL_MACADDR_PLACEHOLDER": "Podaj prawidłowy adres MAC, np. dc:a6:32:ae:8e:7f",
         "ALARM_CLOCK": "Budzik",
-        "HELP_ALARM_CLOCK": "Roszerzenie TheAppgineer's Alarm Clock Extension umożliwia ustawienia alarmu dla danej strefy Roon.",
+        "HELP_ALARM_CLOCK": "Rozszerzenie TheAppgineer's Alarm Clock Extension umożliwia ustawienia alarmu dla danej strefy Roon.",
         "TOUCHSCREEN_TYPE": "Rodzaj Ekranu Dotykowego",
         "HELP_TOUCHSCREEN_TYPE": "Który rodzaj ekranu dotykowego jest podłączony.",
         "BUTTON_SHUTDOWN": "Wyłącz",
         "BUTTON_REBOOT": "Zrestartuj",
-        "BUTTON_ROONBRIDGE": "Przeinstaluj Mostek Roon",
-        "BUTTON_FEEDBACK": "Wyślij Feedback"
+        "BUTTON_ROONBRIDGE": "Zainstaluj ponownie Roon Bridge",
+        "BUTTON_FEEDBACK": "Wyślij opinię"
     },
     "INFO": {
         "INTRO_TEXT": "Sekcja zawiera informacje o {{.constants.GLOBAL_PROD_NAME}}.",
-        "VIEW_RELEASE_NOTES": "Wersja Wydania",
+        "VIEW_RELEASE_NOTES": "Informacje o wydaniu",
         "SOFTWARE_VERSION": "Wersja Oprogramowania",
         "KERNEL_VERSION": "Wersja Kernela",
         "BOARD_TEMP": "Temperatura Urządzenia",
@@ -139,7 +141,7 @@
         "BOARD_UUID": "Numer UUID",
         "BOARD_TYPE": "Model Urządzenia",
         "BOOTLOADER_VERSION": "Wersja Bootloadera",
-        "MEM_SIZE": "Pamięci RAM",
+        "MEM_SIZE": "Pojemność pamięci RAM",
         "DISK_SIZE": "Pojemność Dysku/Karty SD"
     },
     "DEVICES": {
@@ -176,14 +178,14 @@
     },
     "UPDATE": {
         "IN_PROGRESS": "Aktualizacja w toku...",
-        "WAIT_1": "Twoje {{.constants.GLOBAL_PROD_NAME}} jest aktualizowane",
+        "WAIT_1": "Trwa aktualizacja {{.constants.GLOBAL_PROD_NAME}} do wersji",
         "WAIT_2": "To może chwilę potrwać...",
         "DONT_INTERRUPT": "Proszę nie przerywaj aktualizacji i nie wyłączaj urządzenia."
     },
     "WELCOME": {
         "WELCOME_TO": "Witam w",
         "READY": "Twoje urządzenie zostało zainstalowane i jest gotowe do użycia! Skonfiguruj je według swoich preferencji i zacznij słuchać muzyki.",
-        "SUPPORT_1": "Dokumentację Verox znajdziesz na",
+        "SUPPORT_1": "Dokumentację {{.constants.GLOBAL_PROD_NAME}} znajdziesz na",
         "SUPPORT_2": "jeżeli potrzebujesz dalszego wsparcia możesz odwiedzić",
         "FORUM_LINK": "forum społeczności",
         "SUPPORT_3": "gdzie znajdziesz innych użytkowników, którzy chętnie pomogą Ci jeśli będziesz miał jakieś pytania lub problemy techniczne.",
@@ -195,5 +197,39 @@
         "BODY_2": "Nic się nie zmieniło: Twoja konfiguracja, strefy i inne ustawienia są dokładnie takie, jakie je zostawiłeś.",
         "LEARN_MORE": "Czy ciekawi Cię historia nowej nazwy?",
         "LEARN_MORE_LINK": "Przeczytaj tutaj"
+    },
+    "DISK_TOO_SMALL": {
+        "TITLE": "Uwaga: Zbyt mała pojemność karty SD",
+        "TOO_SMALL": "Karta SD tego urządzenia ma zbyt małą pojemność: {{.constants.GLOBAL_PROD_NAME}} wymaga nośnika o pojemności co najmniej 8 GB.",
+        "NO_UPDATES": "Nie można zaktualizować tego urządzenia, ponieważ brakuje wolnego miejsca.",
+        "ADVICE": "Zalecamy wymianę karty SD na nową kartę o większej pojemności.",
+        "SUPPORT_1": "Jeśli potrzebujesz pomocy, odwiedź",
+        "SUPPORT_2": "gdzie inni użytkownicy chętnie odpowiedzą na Twoje pytania.",
+        "GUIDE": "Możesz również zapoznać się z",
+        "GUIDE_LINK": "poradnikiem instalacji."
+    },
+    "ALERTS": {
+        "NEEDS_REBOOT": "Aby wszystkie zmiany zaczęły obowiązywać, uruchom urządzenie ponownie.",
+        "BUTTON_REBOOT": "URUCHOM PONOWNIE",
+        "NEEDS_CONFIGURE": "Aby ostatnie zmiany zaczęły obowiązywać, zastosuj konfigurację urządzenia.",
+        "BUTTON_CONFIGURE": "ZASTOSUJ KONFIGURACJĘ",
+        "UPDATE_AVAILABLE": "Pobrano aktualizację dostępną dla Twojego urządzenia:",
+        "BUTTON_INSTALL_UPDATE": "ZAINSTALUJ AKTUALIZACJĘ",
+        "UPDATE_INHIBITED": "Aktualizacja jest dostępna, ale jej instalacja została zablokowana:",
+        "BUTTON_MORE_INFO": "WIĘCEJ INFORMACJI",
+        "REBOOT_TITLE": "Ponowne uruchomienie",
+        "REBOOT_CONFIRM": "Czy na pewno chcesz ponownie uruchomić urządzenie?"
+    },
+    "SAVED": {
+        "TITLE": "{{.constants.GLOBAL_PROD_NAME}} — zapisano ustawienia!",
+        "SAVED": "Zmiany w konfiguracji zostały zapisane.",
+        "RUN_CONFIGURE": "Aby nowe ustawienia zaczęły obowiązywać, kliknij ZASTOSUJ KONFIGURACJĘ.",
+        "RUN_REBOOT": "Aby nowe ustawienia zaczęły obowiązywać, kliknij URUCHOM PONOWNIE."
+    },
+    "FOOTER": {
+        "DONATE": "Wesprzyj projekt"
+    },
+    "CONFIGURE": {
+        "IN_PROGRESS": "Trwa konfigurowanie urządzenia… Proszę nie przerywać tego procesu!"
     }
 }
