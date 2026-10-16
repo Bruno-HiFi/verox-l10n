@@ -34,6 +34,8 @@ When loading a page of Verox's web interface, the software looks up the text usi
 
 When new texts are added (for example, because of a new feature), the corresponding entries are added to the master file. The [TODO](TODO.md) file will show what's missing (if any) in the other translation files.
 
+When the meaning of an existing English text changes, that text is removed from the other translation files, so it shows up in the [TODO](TODO.md) file again and needs a new translation. Small wording changes that keep the meaning don't affect existing translations.
+
 ## Add translation
 
 Adding a new translation can be done by opening a PR and introducing a new language file. That's the simple explanation 😅

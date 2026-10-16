@@ -178,9 +178,9 @@
         "DONATE_2": "are welcome!"
     },
     "UPDATE": {
-        "IN_PROGRESS": "Update in progress...",
+        "IN_PROGRESS": "Updating",
         "WAIT_1": "Your {{.constants.GLOBAL_PROD_NAME}} is being updated to",
-        "WAIT_2": "This might take a while...",
+        "WAIT_2": "This can take a while.",
         "DONT_INTERRUPT": "Please do not interrupt or turn it off."
     },
     "WELCOME": {
