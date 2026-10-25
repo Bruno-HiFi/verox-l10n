@@ -19,7 +19,8 @@
         "BUTTON_RESET": "Zresetuj",
         "BUTTON_CONTINUE": "Kontynuuj",
         "BUTTON_OK": "OK",
-        "BUTTON_CANCEL": "Anuluj"
+        "BUTTON_CANCEL": "Anuluj",
+        "BUTTON_HOME": "Strona główna"
     },
     "SYSTEM": {
         "INTRO_TEXT": "Sekcja zawiera podstawowe ustawienia {{.constants.GLOBAL_PROD_NAME}}, które są wymagane do poprawnego działania urządzenia.",
@@ -231,5 +232,45 @@
     },
     "CONFIGURE": {
         "IN_PROGRESS": "Trwa konfigurowanie urządzenia… Proszę nie przerywać tego procesu!"
+     },
+    "FEEDBACK": {
+        "SENT": "Logi zostały wysłane do zespołu {{.constants.GLOBAL_PROD_NAME}} z następującym identyfikatorem:",
+        "SENT_NOTE": "Podaj ten identyfikator, gdy opisujesz swój problem na",
+        "FAILED_TITLE": "Nie udało się wysłać opinii!",
+        "FAILED_BODY": "Przyczyną może być na przykład brak połączenia z internetem lub blokada zapory sieciowej."
+    },
+    "LOGIN": {
+        "TITLE": "Zaloguj się",
+        "PASSWORD": "Hasło",
+        "BUTTON_LOGIN": "Zaloguj się",
+        "ERROR_LOGOUT_FIRST": "Najpierw się wyloguj!",
+        "ERROR_WRONG_PASSWORD": "Nieprawidłowe hasło!"
+    },
+    "LOGOUT": {
+        "TITLE": "Wylogowano",
+        "LINE_1": "Zostałeś wylogowany.",
+        "LINE_2": "Chcesz zalogować się ponownie? Kliknij przycisk poniżej.",
+        "BUTTON_BACK": "Wróć do logowania"
+    },
+    "SERVICES": {
+        "INTRO_ROONBRIDGE": "Odtwarzaj muzykę z Roon na tym urządzeniu.",
+        "INTRO_UPMPDCLI": "Odtwarzaj muzykę z aplikacji i serwerów UPnP/DLNA, takich jak BubbleUPnP czy JRiver.",
+        "INTRO_SHAIRPORT": "Odtwarzaj muzykę z iPhone’a, iPada lub Maca przez AirPlay za pomocą shairport-sync.",
+        "INTRO_LIBRESPOT": "Odtwarzaj muzykę z aplikacji Spotify przez Spotify Connect.",
+        "INTRO_SOLOIST": "Odtwarzaj muzykę przez Spotify Connect za pomocą silnika Soloist firmy Spotify.",
+        "INTRO_SQUEEZELITE": "Odtwarzaj muzykę z Lyrion Music Server (dawniej Logitech Media Server) za pomocą Squeezelite.",
+        "INTRO_HQPLAYER": "Umożliwia HQPlayerowi korzystanie z tego urządzenia jako sieciowego adaptera audio (NAA).",
+        "INTRO_SPINNER": "Odtwarzaj muzykę z Music Assistant lub innych źródeł Sendspin, z synchronizacją między pomieszczeniami.",
+        "INTRO_CALDERA": "Odtwarzaj muzykę z serwera Plex za pomocą klienta Caldera.",
+        "INTRO_OAAT": "Odtwarzaj muzykę z serwera muzycznego Tune przez protokół OAAT.",
+        "INTRO_UPNPBRIDGE": "Udostępnia sieciowe urządzenie odtwarzające UPnP jako odtwarzacz za pośrednictwem tego urządzenia.",
+        "READ_MORE": "Dowiedz się więcej",
+        "VERSION": "Wersja",
+        "EXPIRES_IN": "Wygasa za",
+        "DAYS": "dni",
+        "PLEX_NOT_CONNECTED": "Aby włączyć tę usługę, najpierw połącz konto Plex.",
+        "PLEX_CONNECT": "Połącz konto Plex",
+        "PLEX_ENTER_CODE_AT": "Wprowadź kod na stronie:",
+        "PLEX_WAITING": "Oczekiwanie na autoryzację..."
     }
 }
