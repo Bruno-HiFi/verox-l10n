@@ -179,7 +179,15 @@
         "LED_BOTH_OFF": "Both LEDs Off",
         "LED_BLINK_UPDATE": "Blink Green LED on Update",
         "TOUCHSCREEN_AUTO_DETECT": "Auto-Detect",
-        "WOL_MACADDR_INVALID": "Please provide a valid MAC address!"
+        "WOL_MACADDR_INVALID": "Please provide a valid MAC address!",
+        "WEB_CURRENT_PASSWORD": "Current Password",
+        "HELP_WEB_CURRENT_PASSWORD": "Needed to change or remove the password.",
+        "WEB_NEW_PASSWORD": "New Password",
+        "HELP_WEB_NEW_PASSWORD": "At least 8 characters.",
+        "AUTH_ERROR_WRONG": "The current password isn't right. Nothing was changed.",
+        "AUTH_ERROR_SHORT": "The new password needs at least 8 characters. Nothing was changed.",
+        "AUTH_ERROR_REQUIRED": "Choose a password to turn on protection. Nothing was changed.",
+        "AUTH_ERROR_FAILED": "The password could not be saved. Nothing was changed."
     },
     "INFO": {
         "INTRO_TEXT": "This section shows information about {{.constants.GLOBAL_PROD_NAME}}.",
@@ -240,7 +248,14 @@
         "SUPPORT_2": "and if you need any assistance you can visit the",
         "FORUM_LINK": "community forum",
         "SUPPORT_3": "where you'll find other users that are willing to help out if you're having questions.",
-        "REGARDS_TEXT": "Best regards,"
+        "REGARDS_TEXT": "Best regards,",
+        "PASSWORD_TITLE": "Protect your settings?",
+        "PASSWORD_TEXT": "Set a password so only you can change this device's settings. You can also do this later, on the Advanced page.",
+        "PASSWORD_PLACEHOLDER": "Password, at least 8 characters",
+        "BUTTON_SET_PASSWORD": "Set password",
+        "BUTTON_NOT_NOW": "Not now",
+        "PASSWORD_ERROR_SHORT": "The password needs at least 8 characters.",
+        "PASSWORD_ERROR_FAILED": "The password could not be saved."
     },
     "VEROX_MIGRATION": {
         "TITLE": "RoPieee is now Verox!",
@@ -297,7 +312,8 @@
         "ERROR_WRONG_PASSWORD": "Wrong password!",
         "TITLE_DEVICE": "Log in to %h",
         "SUBTITLE": "This device is protected with a password.",
-        "ERROR_PASSWORD_INCORRECT": "That password isn't right."
+        "ERROR_PASSWORD_INCORRECT": "That password isn't right.",
+        "ERROR_TOO_MANY_ATTEMPTS": "Too many attempts. Try again in %m minutes."
     },
     "LOGOUT": {
         "TITLE": "Logged out",

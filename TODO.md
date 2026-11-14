@@ -61,6 +61,21 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | DISK_TOO_SMALL  | (whole section)             | missing |
 |           | ALERTS          | (whole section)             | missing |
 |           | SAVED           | (whole section)             | missing |
@@ -123,6 +138,21 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | DISK_TOO_SMALL  | (whole section)             | missing |
 |           | ALERTS          | (whole section)             | missing |
 |           | SAVED           | (whole section)             | missing |
@@ -185,6 +215,21 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | DISK_TOO_SMALL  | (whole section)             | missing |
 |           | ALERTS          | (whole section)             | missing |
 |           | SAVED           | (whole section)             | missing |
@@ -247,6 +292,21 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | DISK_TOO_SMALL  | (whole section)             | missing |
 |           | ALERTS          | (whole section)             | missing |
 |           | SAVED           | (whole section)             | missing |
@@ -306,9 +366,25 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | LOGIN           | TITLE_DEVICE                | missing |
 |           | LOGIN           | SUBTITLE                    | missing |
 |           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
+|           | LOGIN           | ERROR_TOO_MANY_ATTEMPTS     | missing |
 |           | LOGOUT          | TITLE_DEVICE                | missing |
 |           | LOGOUT          | SUBTITLE                    | missing |
 |           | LOGOUT          | BUTTON_LOGIN_AGAIN          | missing |
@@ -376,6 +452,14 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
 |           | DONATE          | HEADER                      | missing |
 |           | INIT            | DONATIONS                   | missing |
 |           | WELCOME         | (whole section)             | missing |
@@ -439,9 +523,25 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | ADVANCED        | WEB_CURRENT_PASSWORD        | missing |
+|           | ADVANCED        | HELP_WEB_CURRENT_PASSWORD   | missing |
+|           | ADVANCED        | WEB_NEW_PASSWORD            | missing |
+|           | ADVANCED        | HELP_WEB_NEW_PASSWORD       | missing |
+|           | ADVANCED        | AUTH_ERROR_WRONG            | missing |
+|           | ADVANCED        | AUTH_ERROR_SHORT            | missing |
+|           | ADVANCED        | AUTH_ERROR_REQUIRED         | missing |
+|           | ADVANCED        | AUTH_ERROR_FAILED           | missing |
+|           | WELCOME         | PASSWORD_TITLE              | missing |
+|           | WELCOME         | PASSWORD_TEXT               | missing |
+|           | WELCOME         | PASSWORD_PLACEHOLDER        | missing |
+|           | WELCOME         | BUTTON_SET_PASSWORD         | missing |
+|           | WELCOME         | BUTTON_NOT_NOW              | missing |
+|           | WELCOME         | PASSWORD_ERROR_SHORT        | missing |
+|           | WELCOME         | PASSWORD_ERROR_FAILED       | missing |
 |           | LOGIN           | TITLE_DEVICE                | missing |
 |           | LOGIN           | SUBTITLE                    | missing |
 |           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
+|           | LOGIN           | ERROR_TOO_MANY_ATTEMPTS     | missing |
 |           | LOGOUT          | TITLE_DEVICE                | missing |
 |           | LOGOUT          | SUBTITLE                    | missing |
 |           | LOGOUT          | BUTTON_LOGIN_AGAIN          | missing |
