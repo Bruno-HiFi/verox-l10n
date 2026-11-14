@@ -187,7 +187,9 @@
         "AUTH_ERROR_WRONG": "The current password isn't right. Nothing was changed.",
         "AUTH_ERROR_SHORT": "The new password needs at least 8 characters. Nothing was changed.",
         "AUTH_ERROR_REQUIRED": "Choose a password to turn on protection. Nothing was changed.",
-        "AUTH_ERROR_FAILED": "The password could not be saved. Nothing was changed."
+        "AUTH_ERROR_FAILED": "The password could not be saved. Nothing was changed.",
+        "WEB_CURRENT_PASSWORD_TO_DISABLE": "Enter your current password to turn protection off",
+        "WEB_CURRENT_PASSWORD_TO_CHANGE": "Enter your current password to change it"
     },
     "INFO": {
         "INTRO_TEXT": "This section shows information about {{.constants.GLOBAL_PROD_NAME}}.",
