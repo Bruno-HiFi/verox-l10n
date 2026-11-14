@@ -306,6 +306,9 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | LOGIN           | TITLE_DEVICE                | missing |
+|           | LOGIN           | SUBTITLE                    | missing |
+|           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
 |           | SERVICES        | CONVENIENCE_SWITCHING       | missing |
 |           | SERVICES        | ROONBRIDGE_ENABLED          | missing |
 |           | SERVICES        | SERVICE_NAME                | missing |
@@ -433,6 +436,9 @@ The following (sub)keys are missing:
 |           | ADVANCED        | LED_BLINK_UPDATE            | missing |
 |           | ADVANCED        | TOUCHSCREEN_AUTO_DETECT     | missing |
 |           | ADVANCED        | WOL_MACADDR_INVALID         | missing |
+|           | LOGIN           | TITLE_DEVICE                | missing |
+|           | LOGIN           | SUBTITLE                    | missing |
+|           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
 |           | SERVICES        | CONVENIENCE_SWITCHING       | missing |
 |           | SERVICES        | ROONBRIDGE_ENABLED          | missing |
 |           | SERVICES        | SERVICE_NAME                | missing |

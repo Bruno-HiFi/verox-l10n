@@ -294,7 +294,10 @@
         "PASSWORD": "Password",
         "BUTTON_LOGIN": "Log in",
         "ERROR_LOGOUT_FIRST": "Please log out first!",
-        "ERROR_WRONG_PASSWORD": "Wrong password!"
+        "ERROR_WRONG_PASSWORD": "Wrong password!",
+        "TITLE_DEVICE": "Log in to %h",
+        "SUBTITLE": "This device is protected with a password.",
+        "ERROR_PASSWORD_INCORRECT": "That password isn't right."
     },
     "LOGOUT": {
         "TITLE": "Logged out",
