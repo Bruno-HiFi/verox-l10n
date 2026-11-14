@@ -303,7 +303,10 @@
         "TITLE": "Logged out",
         "LINE_1": "You have been logged out.",
         "LINE_2": "Want to go back in? Press the button below.",
-        "BUTTON_BACK": "Bring me back"
+        "BUTTON_BACK": "Bring me back",
+        "TITLE_DEVICE": "Logged out of %h",
+        "SUBTITLE": "You can close this page, or log in again.",
+        "BUTTON_LOGIN_AGAIN": "Log in again"
     },
     "SERVICES": {
         "INTRO_ROONBRIDGE": "Play from Roon on this device.",

@@ -309,6 +309,9 @@ The following (sub)keys are missing:
 |           | LOGIN           | TITLE_DEVICE                | missing |
 |           | LOGIN           | SUBTITLE                    | missing |
 |           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
+|           | LOGOUT          | TITLE_DEVICE                | missing |
+|           | LOGOUT          | SUBTITLE                    | missing |
+|           | LOGOUT          | BUTTON_LOGIN_AGAIN          | missing |
 |           | SERVICES        | CONVENIENCE_SWITCHING       | missing |
 |           | SERVICES        | ROONBRIDGE_ENABLED          | missing |
 |           | SERVICES        | SERVICE_NAME                | missing |
@@ -439,6 +442,9 @@ The following (sub)keys are missing:
 |           | LOGIN           | TITLE_DEVICE                | missing |
 |           | LOGIN           | SUBTITLE                    | missing |
 |           | LOGIN           | ERROR_PASSWORD_INCORRECT    | missing |
+|           | LOGOUT          | TITLE_DEVICE                | missing |
+|           | LOGOUT          | SUBTITLE                    | missing |
+|           | LOGOUT          | BUTTON_LOGIN_AGAIN          | missing |
 |           | SERVICES        | CONVENIENCE_SWITCHING       | missing |
 |           | SERVICES        | ROONBRIDGE_ENABLED          | missing |
 |           | SERVICES        | SERVICE_NAME                | missing |
