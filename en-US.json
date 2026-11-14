@@ -145,6 +145,7 @@
         "HELP_WEB_AUTH": "Enable authentication on {{.constants.GLOBAL_PROD_NAME}}'s webpage.",
         "WEB_PASSWORD": "Web Password",
         "HELP_WEB_PASSWORD": "The password used for authentication of the webpage.",
+        "WEB_PASSWORD_PLACEHOLDER": "Leave empty to keep the current password",
         "LED_FUNCTION": "LEDs Function",
         "HELP_LED_FUNCTION": "How do you want the LEDs to behave. On the Pi5 the POWER LED is disabled completely.",
         "SEND_WOL": "Send Wake-on-Lan (WoL)",

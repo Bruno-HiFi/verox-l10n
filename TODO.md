@@ -41,6 +41,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -102,6 +103,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -163,6 +165,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -224,6 +227,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -282,6 +286,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -345,6 +350,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
@@ -407,6 +413,7 @@ The following (sub)keys are missing:
 |           | NETWORK         | HELP_SECURITY               | missing |
 |           | NETWORK         | HELP_SCAN                   | missing |
 |           | NETWORK         | NOT_SET                     | missing |
+|           | ADVANCED        | WEB_PASSWORD_PLACEHOLDER    | missing |
 |           | ADVANCED        | WEB_AUTH_INFO               | missing |
 |           | ADVANCED        | FEEDBACK_TITLE              | missing |
 |           | ADVANCED        | FEEDBACK_SENDING            | missing |
