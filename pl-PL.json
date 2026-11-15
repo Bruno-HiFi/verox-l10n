@@ -117,7 +117,7 @@
         "HELP_SHOW_CLOCK": "Wybierz, aby wyświetlić zegar. W przeciwnym razie ekran będzie pusty.",
         "CLOCK_COLOR": "Kolor Zegara",
         "HELP_CLOCK_COLOR": "Wybierz kolor zegara.",
-        "CUSTOM_CLOCK_COLOR": "Dostosuj Kolor zZgara",
+        "CUSTOM_CLOCK_COLOR": "Dostosuj Kolor Zegara",
         "HELP_CUSTOM_CLOCK_COLOR": "Dostosuj kolor zegara (zdefiniuj w wartościach HEX).",
         "CLOCK_24HR": "Zegar 24-godzinny",
         "HELP_CLOCK_24HR": "Pokaż Zegar 24-godzinny."
