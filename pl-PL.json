@@ -20,7 +20,8 @@
         "BUTTON_CONTINUE": "Kontynuuj",
         "BUTTON_OK": "OK",
         "BUTTON_CANCEL": "Anuluj",
-        "BUTTON_HOME": "Strona główna"
+        "BUTTON_HOME": "Strona główna",
+        "OFF": "Wyłącz"
     },
     "SYSTEM": {
         "INTRO_TEXT": "Sekcja zawiera podstawowe ustawienia {{.constants.GLOBAL_PROD_NAME}}, które są wymagane do poprawnego działania urządzenia.",
@@ -65,7 +66,36 @@
         "HELP_WIRELESS_NETWORK": "Wybierz nazwę sieci WiFi (SSID) z którą chcesz się połączyć.",
         "BUTTON_SCAN": "Skanowanie",
         "WIRELESS_PASSWORD": "Hasło",
-        "HELP_WIRELESS_PASSWORD": "Hasło (WPA-PSK/WPA2-PSK) sieci WiFi z którą chcesz się połączyć."
+        "HELP_WIRELESS_PASSWORD": "Hasło (WPA-PSK/WPA2-PSK) sieci WiFi z którą chcesz się połączyć.",
+        "ENABLING_INTERFACES": "Włączanie interfejsów sprzętowych...",
+        "DISABLING_INTERFACES": "Wyłączanie interfejsów sprzętowych...",
+        "SCANNING": "Skanowanie sieci...",
+        "WIFI_ERROR_TITLE": "Błąd sieci bezprzewodowej",
+        "WIFI_ERROR_TEXT": "Podczas włączania interfejsów wystąpił błąd.",
+        "WIFI_ERROR_CANNOT_CONFIGURE": "Nie można skonfigurować sieci Wi-Fi.",
+        "METHOD_STATIC": "Statyczna",
+        "IP_ADDRESS": "Adres IP",
+        "HELP_IP_ADDRESS": "Adres IP połączenia.",
+        "IP_NETMASK": "Maska podsieci",
+        "HELP_IP_NETMASK": "Maska podsieci połączenia.",
+        "GATEWAY": "Brama",
+        "HELP_GATEWAY": "Brama połączenia.",
+        "MAC_ADDRESS": "Adres MAC",
+        "HELP_MAC_ADDRESS": "Adres MAC interfejsu.",
+        "SPEED": "Szybkość",
+        "HELP_SPEED": "Szybkość połączenia.",
+        "DUPLEX": "Tryb dupleksowy",
+        "HELP_DUPLEX": "Tryb dupleksowy połączenia.",
+        "FREQUENCY": "Częstotliwość",
+        "HELP_FREQUENCY": "Pasmo częstotliwości.",
+        "SIGNAL": "Sygnał",
+        "HELP_SIGNAL": "Siła sygnału. Wartość większa niż -60 dB oznacza dobry sygnał.",
+        "BITRATE": "Bitrate",
+        "HELP_BITRATE": "Bitrate połączenia.",
+        "SECURITY": "Zabezpieczenia",
+        "HELP_SECURITY": "Zabezpieczenia połączenia.",
+        "HELP_SCAN": "Wyszukaj dostępne sieci Wi-Fi.",
+        "NOT_SET": "Nie ustawiono"
     },
     "DISPLAY": {
         "INTRO_TEXT": "Sekcja zawiera ustawienia dotykowego wyświetlacza Raspberry Pi.",
@@ -87,7 +117,7 @@
         "HELP_SHOW_CLOCK": "Wybierz, aby wyświetlić zegar. W przeciwnym razie ekran będzie pusty.",
         "CLOCK_COLOR": "Kolor Zegara",
         "HELP_CLOCK_COLOR": "Wybierz kolor zegara.",
-        "CUSTOM_CLOCK_COLOR": "Dostosuj Kolor Zegara",
+        "CUSTOM_CLOCK_COLOR": "Dostosuj Kolor zZgara",
         "HELP_CUSTOM_CLOCK_COLOR": "Dostosuj kolor zegara (zdefiniuj w wartościach HEX).",
         "CLOCK_24HR": "Zegar 24-godzinny",
         "HELP_CLOCK_24HR": "Pokaż Zegar 24-godzinny."
@@ -115,6 +145,7 @@
         "HELP_WEB_AUTH": "Włącz logowanie za pomocą hasła do {{.constants.GLOBAL_PROD_NAME}} GUI.",
         "WEB_PASSWORD": "Hasło",
         "HELP_WEB_PASSWORD": "Hasło do logowania się do {{.constants.GLOBAL_PROD_NAME}}.",
+        "WEB_PASSWORD_PLACEHOLDER": "Pozostaw puste, aby zachować bieżące hasło",
         "LED_FUNCTION": "Diody LED",
         "HELP_LED_FUNCTION": "Jak chcesz, żeby zachowywały się diody LED. W Raspberry Pi5 dioda POWER jest całkowicie wyłączona.",
         "SEND_WOL": "Wyślij pakiet Wake-on-LAN (WoL)",
@@ -129,7 +160,36 @@
         "BUTTON_SHUTDOWN": "Wyłącz",
         "BUTTON_REBOOT": "Zrestartuj",
         "BUTTON_ROONBRIDGE": "Zainstaluj ponownie Roon Bridge",
-        "BUTTON_FEEDBACK": "Wyślij opinię"
+        "BUTTON_FEEDBACK": "Wyślij opinię",
+        "WEB_AUTH_INFO": "Po włączeniu uwierzytelniania dostęp do strony {{.constants.GLOBAL_PROD_NAME}} będzie wymagał nazwy użytkownika „admin” i podanego hasła.",
+        "FEEDBACK_TITLE": "Opinia",
+        "FEEDBACK_SENDING": "Zbieranie informacji i wysyłanie ich do zespołu {{.constants.GLOBAL_PROD_NAME}}...",
+        "ROONBRIDGE_CONFIRM": "Ponowna instalacja Roon Bridge wymaga ponownego uruchomienia {{.constants.GLOBAL_PROD_NAME}}. Czy na pewno chcesz kontynuować?",
+        "REBOOT_CONFIRM": "Czy na pewno chcesz ponownie uruchomić urządzenie?",
+        "SHUTDOWN_CONFIRM": "Czy na pewno chcesz wyłączyć urządzenie?",
+        "CHANNEL_STABLE": "Stabilny",
+        "CHANNEL_BETA": "Beta",
+        "CHANNEL_TEST": "Testowy (nie używaj)",
+        "SCHEDULE_DAILY": "Codziennie",
+        "SCHEDULE_WEEKLY": "Co tydzień",
+        "SCHEDULE_BIWEEKLY": "Co dwa tygodnie",
+        "SCHEDULE_MONTHLY": "Co miesiąc",
+        "SCHEDULE_NEVER": "Nigdy",
+        "LED_GREEN_ON": "Zielona dioda włączona",
+        "LED_BOTH_OFF": "Obie diody wyłączone",
+        "LED_BLINK_UPDATE": "Miganie zielonej diody podczas aktualizacji",
+        "TOUCHSCREEN_AUTO_DETECT": "Wykryj automatycznie",
+        "WOL_MACADDR_INVALID": "Podaj prawidłowy adres MAC!",
+        "WEB_CURRENT_PASSWORD": "Bieżące hasło",
+        "HELP_WEB_CURRENT_PASSWORD": "Wymagane do zmiany lub usunięcia hasła.",
+        "WEB_NEW_PASSWORD": "Nowe hasło",
+        "HELP_WEB_NEW_PASSWORD": "Co najmniej 8 znaków.",
+        "AUTH_ERROR_WRONG": "Bieżące hasło jest nieprawidłowe. Nie wprowadzono żadnych zmian.",
+        "AUTH_ERROR_SHORT": "Nowe hasło musi mieć co najmniej 8 znaków. Nie wprowadzono żadnych zmian.",
+        "AUTH_ERROR_REQUIRED": "Ustaw hasło, aby włączyć ochronę. Nie wprowadzono żadnych zmian.",
+        "AUTH_ERROR_FAILED": "Nie udało się zapisać hasła. Nie wprowadzono żadnych zmian.",
+        "WEB_CURRENT_PASSWORD_TO_DISABLE": "Wprowadź bieżące hasło, aby wyłączyć ochronę",
+        "WEB_CURRENT_PASSWORD_TO_CHANGE": "Wprowadź bieżące hasło, aby je zmienić"
     },
     "INFO": {
         "INTRO_TEXT": "Sekcja zawiera informacje o {{.constants.GLOBAL_PROD_NAME}}.",
@@ -190,7 +250,14 @@
         "SUPPORT_2": "jeżeli potrzebujesz dalszego wsparcia możesz odwiedzić",
         "FORUM_LINK": "forum społeczności",
         "SUPPORT_3": "gdzie znajdziesz innych użytkowników, którzy chętnie pomogą Ci jeśli będziesz miał jakieś pytania lub problemy techniczne.",
-        "REGARDS_TEXT": "Pozdrawiam serdecznie,"
+        "REGARDS_TEXT": "Pozdrawiam serdecznie,",
+        "PASSWORD_TITLE": "Chronić ustawienia?",
+        "PASSWORD_TEXT": "Ustaw hasło, aby tylko Ty mógł zmieniać ustawienia tego urządzenia. Możesz to również zrobić później na stronie Zaawansowane.",
+        "PASSWORD_PLACEHOLDER": "Hasło, co najmniej 8 znaków",
+        "BUTTON_SET_PASSWORD": "Ustaw hasło",
+        "BUTTON_NOT_NOW": "Nie teraz",
+        "PASSWORD_ERROR_SHORT": "Hasło musi mieć co najmniej 8 znaków.",
+        "PASSWORD_ERROR_FAILED": "Nie udało się zapisać hasła."
     },
     "VEROX_MIGRATION": {
         "TITLE": "RoPieee nazywa się teraz Verox!",
@@ -244,13 +311,20 @@
         "PASSWORD": "Hasło",
         "BUTTON_LOGIN": "Zaloguj się",
         "ERROR_LOGOUT_FIRST": "Najpierw się wyloguj!",
-        "ERROR_WRONG_PASSWORD": "Nieprawidłowe hasło!"
+        "ERROR_WRONG_PASSWORD": "Nieprawidłowe hasło!",
+        "TITLE_DEVICE": "Zaloguj się do %h",
+        "SUBTITLE": "To urządzenie jest chronione hasłem.",
+        "ERROR_PASSWORD_INCORRECT": "To hasło jest nieprawidłowe.",
+        "ERROR_TOO_MANY_ATTEMPTS": "Zbyt wiele prób. Spróbuj ponownie za %m min."
     },
     "LOGOUT": {
         "TITLE": "Wylogowano",
         "LINE_1": "Zostałeś wylogowany.",
         "LINE_2": "Chcesz zalogować się ponownie? Kliknij przycisk poniżej.",
-        "BUTTON_BACK": "Wróć do logowania"
+        "BUTTON_BACK": "Wróć do logowania",
+        "TITLE_DEVICE": "Wylogowano z %h",
+        "SUBTITLE": "Możesz zamknąć tę stronę lub zalogować się ponownie.",
+        "BUTTON_LOGIN_AGAIN": "Zaloguj się ponownie"
     },
     "SERVICES": {
         "INTRO_ROONBRIDGE": "Odtwarzaj muzykę z Roon na tym urządzeniu.",
@@ -271,6 +345,14 @@
         "PLEX_NOT_CONNECTED": "Aby włączyć tę usługę, najpierw połącz konto Plex.",
         "PLEX_CONNECT": "Połącz konto Plex",
         "PLEX_ENTER_CODE_AT": "Wprowadź kod na stronie:",
-        "PLEX_WAITING": "Oczekiwanie na autoryzację..."
+        "PLEX_WAITING": "Oczekiwanie na autoryzację...",
+        "CONVENIENCE_SWITCHING": "Wygodne przełączanie",
+        "ROONBRIDGE_ENABLED": "Roon Bridge włączony",
+        "SERVICE_NAME": "Nazwa usługi",
+        "AUDIO_OUTPUT": "Wyjście audio",
+        "VOLUME_CONTROL": "Regulacja głośności",
+        "VOLUME_NONE": "Brak",
+        "VOLUME_SOFTWARE": "Programowa",
+        "VOLUME_HARDWARE": "Sprzętowa"
     }
 }
