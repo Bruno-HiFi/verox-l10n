@@ -64,7 +64,7 @@
         "HELP_WIRELESS_INTERFACE": "Wybierz interfejs WiFi, który chcesz używać.",
         "WIRELESS_NETWORK": "Nazwa Sieci",
         "HELP_WIRELESS_NETWORK": "Wybierz nazwę sieci WiFi (SSID) z którą chcesz się połączyć.",
-        "BUTTON_SCAN": "Skanowanie",
+        "BUTTON_SCAN": "SKANUJ",
         "WIRELESS_PASSWORD": "Hasło",
         "HELP_WIRELESS_PASSWORD": "Hasło (WPA-PSK/WPA2-PSK) sieci WiFi z którą chcesz się połączyć.",
         "ENABLING_INTERFACES": "Włączanie interfejsów sprzętowych...",
@@ -202,7 +202,7 @@
         "BOARD_UUID": "Numer UUID",
         "BOARD_TYPE": "Model Urządzenia",
         "BOOTLOADER_VERSION": "Wersja Bootloadera",
-        "MEM_SIZE": "Pojemność pamięci RAM",
+        "MEM_SIZE": "Pojemność Pamięci RAM",
         "DISK_SIZE": "Pojemność Dysku/Karty SD"
     },
     "DEVICES": {
